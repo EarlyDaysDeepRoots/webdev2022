@@ -187,6 +187,7 @@ Breakpoints were invented for ENIAC, one of the earliest digital computers, by p
 
 <h3>Elements panel</h3>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530095724.png)
+
 View and change the DOM and CSS.
 
 -   [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)
@@ -199,6 +200,7 @@ View and change the DOM and CSS.
 
 <h3>Console panel</h3>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530095826.png)
+
 View messages and run JavaScript from the Console.
 
 -   [Get Started With The Console](https://developer.chrome.com/docs/devtools/console/)
@@ -208,6 +210,7 @@ View messages and run JavaScript from the Console.
 
 <h3>Sources panel</h3>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530095855.png)
+
 Debug JavaScript, persist changes made in DevTools across page reloads, save and run snippets of JavaScript, and save changes that you make in DevTools to disk.
 
 -   [Get Started With Debugging JavaScript](https://developer.chrome.com/docs/devtools/javascript/)
@@ -220,6 +223,7 @@ Debug JavaScript, persist changes made in DevTools across page reloads, save and
 
 <h3>Network panel</h3>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530095925.png)
+
 View and debug network activity.
 
 -   [Get Started](https://developer.chrome.com/docs/devtools/network/)
@@ -230,6 +234,7 @@ View and debug network activity.
 <h3>Performance panel</h3>
 <table><tr><td><font color=blue>Note: In Chrome 58 the Timeline panel was renamed to the Performance panel.</font></td></tr></table>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100149.png)
+
 Find ways to improve load and runtime performance.
 
 -   [Optimize Website Speed](https://developer.chrome.com/docs/devtools/speed/get-started/)
@@ -241,11 +246,13 @@ Find ways to improve load and runtime performance.
 <h3>Memory panel</h3>
 <table><tr><td><font color=blue>Note: In Chrome 58 the Profiles panel was renamed to the Memory panel.</font></td></tr></table>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100337.png)
+
 -   [Fix Memory Problems](https://developer.chrome.com/docs/devtools/memory-problems/)
 -   [JavaScript CPU Profiler](https://developer.chrome.com/docs/devtools/rendering-tools/js-execution/)
 
 <h3>Application panel</h3>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100410.png)
+
 Inspect all resources that are loaded, including IndexedDB or Web SQL databases, local and session storage, cookies, Application Cache, images, fonts, and stylesheets.
 
 -   [Debug Progressive Web Apps](https://developer.chrome.com/docs/devtools/progressive-web-apps/)
@@ -254,6 +261,7 @@ Inspect all resources that are loaded, including IndexedDB or Web SQL databases,
 
 <h3>Security panel</h3>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100500.png)
+
 Debug mixed content issues, certificate problems, and more.
 
 -   [Understand Security Issues](https://developer.chrome.com/docs/devtools/security/)
