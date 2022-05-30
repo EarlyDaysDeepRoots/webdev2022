@@ -150,7 +150,8 @@ DevTools provides a lot of different tools for different tasks, such as changing
 <table><tr><td><font color=blue> Open DevTools by pressing Command+Option+I (Mac) or Control+Shift+I (Windows, Linux). This shortcut opens the Console panel. Then click the Sources Tab. </font></td></tr></table>
 
 The **Sources** panel UI has 3 parts:
-![[Pasted image 20220530093752.png]]
+![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530093752.png)
+
 1.  The **File Navigator** pane. Every file that the page requests is listed here.
 2.  The **Code Editor** pane. After selecting a file in the **File Navigator** pane, the contents of that file are displayed here.
 3.  The **JavaScript Debugging** pane. Various tools for inspecting the page's JavaScript. If your DevTools window is wide, this pane is displayed to the right of the **Code Editor** pane.
@@ -200,6 +201,7 @@ View and change the DOM and CSS.
 -   [Find Unused CSS](https://developer.chrome.com/docs/devtools/coverage/)
 
 <h3>Console panel</h3>
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530095826.png)
 
 View messages and run JavaScript from the Console.
@@ -210,6 +212,7 @@ View messages and run JavaScript from the Console.
 -   [Console API Reference](https://developer.chrome.com/docs/devtools/console/api/)
 
 <h3>Sources panel</h3>
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530095855.png)
 
 Debug JavaScript, persist changes made in DevTools across page reloads, save and run snippets of JavaScript, and save changes that you make in DevTools to disk.
@@ -223,6 +226,7 @@ Debug JavaScript, persist changes made in DevTools across page reloads, save and
 -   [Find Unused JavaScript](https://developer.chrome.com/docs/devtools/coverage/)
 
 <h3>Network panel</h3>
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530095925.png)
 
 View and debug network activity.
@@ -233,6 +237,7 @@ View and debug network activity.
 -   [Inspect Resources](https://developer.chrome.com/docs/devtools/resources/)
 
 <h3>Performance panel</h3>
+
 <table><tr><td><font color=blue>Note: In Chrome 58 the Timeline panel was renamed to the Performance panel.</font></td></tr></table>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100149.png)
 
@@ -245,6 +250,7 @@ Find ways to improve load and runtime performance.
 -   [Diagnose Forced Synchronous Layouts](https://developer.chrome.com/docs/devtools/evaluate-performance/#find_the_bottleneck)
 
 <h3>Memory panel</h3>
+
 <table><tr><td><font color=blue>Note: In Chrome 58 the Profiles panel was renamed to the Memory panel.</font></td></tr></table>
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100337.png)
 
@@ -252,6 +258,7 @@ Find ways to improve load and runtime performance.
 -   [JavaScript CPU Profiler](https://developer.chrome.com/docs/devtools/rendering-tools/js-execution/)
 
 <h3>Application panel</h3>
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100410.png)
 
 Inspect all resources that are loaded, including IndexedDB or Web SQL databases, local and session storage, cookies, Application Cache, images, fonts, and stylesheets.
@@ -261,6 +268,7 @@ Inspect all resources that are loaded, including IndexedDB or Web SQL databases,
 -   [Inspect and Delete Cookies](https://developer.chrome.com/docs/devtools/storage/cookies/)
 
 <h3>Security panel</h3>
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100500.png)
 
 Debug mixed content issues, certificate problems, and more.
@@ -269,16 +277,19 @@ Debug mixed content issues, certificate problems, and more.
 
 
 <h2>Interested Topic 2: Google Chrome for developers</h2>
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100544.png)
 
 <h2>Interested Topic 3: History of Google Chrome</h2>
 Google CEO Eric Schmidt opposed the development of an independent web browser for six years. He stated that "at the time, Google was a small company", and he did not want to go through "bruising browser wars". After co-founders Sergey Brin and Larry Page hired several Mozilla Firefox developers and built an demonstration of Chrome, Schmidt said that "It was so good that it essentially forced me to change my mind."
 
 In September 2004, rumors of Google building a web browser first appeared. Online journals and U.S. newspapers stated at the time that Google was hiring former Microsoft web developers among others. It also came shortly after the release of Mozilla Firebox 1.0, which was surging in popularity and taking market share from Internet Explorer, which had noted security problems. Development of the browser began in 2006 spearheaded by Sundar Pichai.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100642.png)
 
 <h3>Announcement</h3>
 The release announcement was originally scheduled for September 3, 2008, and a comic by Scott McCloud was to be sent to journalists and bloggers explaining the features within the new browser. Copies intended for Europe were shipped early and German blogger Philipp Lenssen of Google Blogoscoped made a scanned copy of the 38-page comic available on his website after receiving it on September 1, 2008.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100716.png)
 
 <table><tr><td><font color=blue>Scott McCloud (born Scott McLeod on June 10, 1960) is an American cartoonist and comics theorist. He is best known for his non-fiction books about comics: Understanding Comics (1993), Reinventing Comics (2000), and Making Comics (2006), all of which also use the medium of comics.</font></td></tr></table>
@@ -325,10 +336,12 @@ On February 7, 2012, Google launched _Google Chrome Beta_ for Android 4.0 device
 Google Chrome browser shows an excellent example of code reuse. They use at least 25 different software libraries.
 <h3>Library 1: Google Breakpad</h3>
 Google Breakpad is a set of client and server components which implement a crash-reporting system.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530101611.png)
 
 <h3>Library 2: Chrome's URL Library</h3>
 Chrome's URL Library is a small library for parsing and canonicalizing URLs.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530101653.png)
 
 <h3>Library 3: Skia</h3>
@@ -339,6 +352,7 @@ Skia is an open source 2D graphics library which provides common APIs that work 
 <h3>Library 4: V8</h3>
 V8 is Google's open source high-performance JavaScript and WebAssembly engine, written in C. It is used in Chrome and in Node.js, among others. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors. V8 can run standalone, or can be embedded into any C++ application.
 <table><tr><td><font color=blue>WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming langauges, enabling deployment on the web for client and server applications.</font></td></tr></table>
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530101835.png)
 
 <h3>Library 5: WebKit</h3>
@@ -347,6 +361,7 @@ WebKit is a browser engine developed bu Apple and primarily used in its Safari w
 WebKit's HTML and JavaScript engine started as a fork of the KHTML and KJS libraries from KDE, and has since been further developed by KDE contributors, Apple, Google, Nokia, Bitstream, BlackBerry, Sony, Igalia, and others. WebKit supports macOS, Windows, Linux and various other Unix-like operating systems. On April 3, 2013, Google announced that it had forked WebCore, a component of WebKit, to be used in future versions of Google Chrome and the Opera web browser, under the name Blink.
 
 WebKit is available under the BSD 2-Clause license with the exception of the WebCore and JavaScriptCore components, which are available under the GNU Lesser General Public License. As of March 7, 2013, WebKit is a trademark of Apple, registered with the U.S. Patent and Trademark Office.
+
 ![https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530101908.png]
 
 <h3>Library 6: Netscape Portable Runtime (NSPR)</h3>
@@ -360,6 +375,7 @@ In computing, the **Netscape Portable Runtime**, or **NSPR**, a platform abstrac
 -   shared library linking.
 
 Much of the library, and perhaps the overall thrust of it in the Gromit environment, provides the underpinnings of the Java virtual machine, more or less mapping the sys layer that Sun defines for the porting of the Java VM to various platforms. NSPR does go beyond that requirement in some areas, as it also functions as the platform-independent layer for most of the servers produced by Netscape.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530102007.png)
 
 <h3>Library 7: Network Security Services (NSS)</h3>
@@ -383,6 +399,7 @@ Main features:
 
 <h3>Library 9: Windows Template Library</h3>
 **Windows Template Library** (**WTL**) is a free software, object-oriented C++ template library for Win32 development. WTL was created by Microsoft employee Nenad Stefanovic for internal use and later released as an unsupported add-on to Visual Studio and the Win32 Framework SDK. It was developed primarily as a light-weight alternative to the Microsoft Foundation Classes and builds upon Microsoft's ATL, another lightweight API widely used to create COM and ActiveX libraries.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530102301.png)
 
 <h3>Library 10: Google C++ Testing Framework</h3>
@@ -428,12 +445,14 @@ ICU has historically used UTF-16, and still does only for Java; while for C/C++ 
 ICO 70 updated to Unicode 14 and added support for emoji properties of strings and C++20 compilers.
 
 ICU 71 adds e.g. phrase-based line breaking for Japanese (earlier methods didn't work well for short Japanese text, such as in titles and headings) and support for Hindi written in Latin letters (hi_Latn), also referred to as "Hinglish" and updates to the time zone data version 2022a.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530103739.png)
 
 <h3>Library 14: libjpeg</h3>
 **libjpeg** is a free library with functions for handling the JPEG image data format. It implements a JPEG codec (encoding and decoding) alongside various utilities for handling JPEG data. It is written in C and distributed as free software together with its source code under the terms of a custom permissive (BSD-like) free software license, which demands attribution. The original variant is maintained and published by the Independent JPEG Group (IJG). Meanwhile, there are several forks with additional features.
 
 JPEG JFIF images are widely used on the Web. The amount of compression can be adjusted to achieve the desired trade-off between file size and visual quality.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530103839.png)
 
 <h3>Library 15: libpng</h3>
@@ -442,10 +461,12 @@ JPEG JFIF images are widely used on the Web. The amount of compression can be ad
 libpng is released under the libpng license, a permissive free software licence, and is free software. It is frequently used in both free and proprietary software, either directly or through the use of a higher level image library.
 
 As of 2017 the latest versions in the 1.6.x and 1.5.x branches were considered as release versions, while 1.4.x, 1.2.x, and 1.0.x were considered as legacy versions getting only security fixes. All vulnerability warnings and crash bugs are published on the main page.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530103913.png)
 
 <h3>Library 16: libxml</h3>
 **libxml** is a software library for parsing XML documents.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530104039.png)
 
 <h3>Library 17: libxlst</h3>
@@ -454,14 +475,17 @@ As of 2017 the latest versions in the 1.6.x and 1.5.x branches were considered a
 libxslt can be used either as library embedded into an application, or via the xsltproc command line tool. The integration into applications is eased by a multitude of language bindings and wrappers. Being written in C, libxslt is a fast and low-resource processor. This makes it a popular choice for DocBook formatting and as standard XSLT processor for programming languages like PHP, Perl or Python.
 
 The WebKit layout engine (used e.g. in Apple Safari and Google Chrome web browser) uses the libxslt library to do XSL transformations.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530104557.png)
 
 <h3>Library 18: LZMA SDK</h3>
 The **LZMA SDK** provides the documentation, samples, header files, libraries, and tools you need to develop applications that use **LZMA** compression.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530104627.png)
 
 <h3>Library 19: stringencoders</h3>
 A collection of high performance c-string transformations (in this case, base 64 encoding/decoding), frequently 2x faster than standard implementations (if they exist at all).
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530104719.png)
 
 <h3>Library 20: Netscape Plugin Application Programming Interface (NPAPI)</h3>
@@ -483,6 +507,7 @@ The POSIX 1003.1-2001 standard defines an application programming interface (API
 Win32 does not, and is unlikely to ever, support pthreads natively. This project seeks to provide a freely available and high-quality solution to this problem.
 
 Various individuals have been working on independent implementations of this well-documented and standardised threading API, but most of them never see the light of day. The tendency is for people to only implement what they personally need, and that usually does not help others. This project attempts to consolidate these implementations into one implementation of pthreads for Win32.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530105023.png)
 
 <h3>Library 22: Scons</h3>
@@ -496,6 +521,7 @@ SCons generates project configurations and build process implementations in the 
 **SQLite** is a database engine written in the C language. It is not a standalone app; rather, it is a library that software developers embed in their apps. As such, it belongs to the family of embedded databases. It is the most widely deployed database engine, as it is used by several of the top web browsers, operating systems, mobile phones, and other embedded systems.
 
 SQLite has bindings to many programming languages. It generally follows PostgreSQL syntax but does not enforce type checking. This means that one can, for example, insert a string into a column defined as an integer.
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530105134.png)
 
 <h3>Library 24: TLS Lite</h3>
