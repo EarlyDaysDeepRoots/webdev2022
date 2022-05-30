@@ -6,6 +6,7 @@ Teacher:  Jonas Schmedtmann
 Progress: Debugging with the Console and Breakpoints (Video 61)
 
 <h2>Section 1: Debugging with console</h2>
+
 ```javascript
 const measureKelvin = function() {
   const measurement = {
