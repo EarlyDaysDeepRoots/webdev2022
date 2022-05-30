@@ -1,4 +1,4 @@
-![[Pasted image 20220530090300.png]]
+![image] (https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530090300.png)
 
 <h1>Task 1: Debugging with the Console and Breakpoints</h1>
 Udemy Course: The Complete JavaScript Course 2022: From Zero to Expert! 
