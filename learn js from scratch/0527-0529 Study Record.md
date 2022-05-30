@@ -43,21 +43,26 @@ Debugging is the skill that all developers should have in their toolbox.
 `console.table()`allows you to print your arrays and objects to the console in tabular form. The tabular representation of data works like a chart which means you will get greater insight into your data and you can just debug your code faster. You can also sort columns quickly.
 
 **syntax:**
+
 ```javascript
 table(data)
 table(data, columns)
 ```
 
 **Parameters:**
+
 `data`: The data to display. This must be either an array or an object.
 `columns`: An array containing the names of columns to include in the output.
 
 **Return Value:**
+
 None (undefinied)
 
 <h3>How to implement console.table()</h3>
 console.table() can be implemented in the following ways:
+
 <h4>1.Array</h4>
+
 ```javascript
 var fruits=["apple","mango","grapes"];
 console.table(fruits);
@@ -67,6 +72,7 @@ Output👇🏻
 ![[Pasted image 20220530092004.png]]
 
 <h4>2.Array of arrays</h4>
+
 ```javascript
 var teams=[["John","Jari"],["Claus","Andrew"],["Marti","Martha"]];
 console.table(teams);
@@ -76,6 +82,7 @@ Output👇🏻
 ![[Pasted image 20220530092119.png]]
 
 <h4>3.Object</h4>
+
 ```javascript
 var user={
      name:"neha",
@@ -89,6 +96,7 @@ Output👇🏻
 ![[Pasted image 20220530092307.png]]
 
 <h4>4.Array of objects</h4>
+
 ```javascript
 var users = [
     {
@@ -111,6 +119,7 @@ Output👇🏻
 ![[Pasted image 20220530092422.png]]
 
 <h4>5.Nested objects</h4>
+
 ```javascript
 var employees = {
     leader: {
