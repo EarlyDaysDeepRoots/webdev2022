@@ -186,7 +186,8 @@ Breakpoints were invented for ENIAC, one of the earliest digital computers, by p
 **Chrome Developer Tools** (also known as **DevTools**) is an essential component of any front-end developer’s toolkit. Mastering this useful in-browser tool will substantially enhance your coding workflow. DevTools has a great deal of features, and to take advantage of them, it’s wise to invest some time learning the ins-and-outs of the tool in order to unlock its true potential.
 
 <h3>Elements panel</h3>
-![img]（https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530095724.png）
+
+![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530095724.png)
 
 View and change the DOM and CSS.
 
