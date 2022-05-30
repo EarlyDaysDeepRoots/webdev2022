@@ -239,6 +239,7 @@ View and debug network activity.
 <h3>Performance panel</h3>
 
 <table><tr><td><font color=blue>Note: In Chrome 58 the Timeline panel was renamed to the Performance panel.</font></td></tr></table>
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100149.png)
 
 Find ways to improve load and runtime performance.
@@ -252,6 +253,7 @@ Find ways to improve load and runtime performance.
 <h3>Memory panel</h3>
 
 <table><tr><td><font color=blue>Note: In Chrome 58 the Profiles panel was renamed to the Memory panel.</font></td></tr></table>
+
 ![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530100337.png)
 
 -   [Fix Memory Problems](https://developer.chrome.com/docs/devtools/memory-problems/)
@@ -362,7 +364,7 @@ WebKit's HTML and JavaScript engine started as a fork of the KHTML and KJS libra
 
 WebKit is available under the BSD 2-Clause license with the exception of the WebCore and JavaScriptCore components, which are available under the GNU Lesser General Public License. As of March 7, 2013, WebKit is a trademark of Apple, registered with the U.S. Patent and Trademark Office.
 
-![https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530101908.png]
+![img](https://github.com/EarlyDaysDeepRoots/webdev2022/blob/main/images/Pasted%20image%2020220530101908.png)
 
 <h3>Library 6: Netscape Portable Runtime (NSPR)</h3>
 In computing, the **Netscape Portable Runtime**, or **NSPR**, a platform abstraction library, makes all operating systems it supports appear the same to (for example) Mozilla-style web-browsers. NSPR provides platform independence for non-GUI operating system facilities. These facilities include:
